@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-fundo: #d2d2c1;
+    --color-menu: #c5c5b2;
+    --colo-link-menu: #e56b6f;
+    --color-fundo-conteudo: #e8e8d9;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--color-fundo) url('/site-annabella/assets/imagens/fundo.png');
+}
+
+header, main, footer{
+    width: 100%;
+}
+
+#conteiner-header, .conteudo, #rodape{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#img-topo{
+    width: 100%;
+}
+
+nav{
+    background-color: var(--color-menu);
+}
+
+#nav-lista{
+    list-style-type: none;
+    display: flex;
+    padding: 8px;
+}
+
+.nav-item{
+    margin: 0 35px;
+    padding: 10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--colo-link-menu);
+    padding: 5px;
+}
+
+.conteudo{
+    background-color: var(--color-fundo-conteudo);
+    padding: 20px;
+}
+
+.conteudo h1{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.conteudo p{
+    text-align: justify;
+    margin: 20px 0;
+}
+
+#rodape{
+    background-color: var(--color-menu);
+    padding: 40px;
+}
+
+#rodape h4{
+    text-align: center;
+}
