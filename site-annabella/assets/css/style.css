@@ -10,6 +10,7 @@
     --colo-link-menu: #e56b6f;
     --color-fundo-conteudo: #e8e8d9;
     --color-letra: #828271;
+    --color-borda: #c3c3ae;
 }
 
 body{
@@ -60,7 +61,7 @@ nav{
 
 .conteudo h1{
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .conteudo h2{
@@ -70,6 +71,10 @@ nav{
 .conteudo p{
     text-align: justify;
     margin: 20px 0;
+}
+
+.img-cont{
+    border: 10px solid var(--color-borda);
 }
 
 #rodape{
