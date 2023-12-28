@@ -75,6 +75,7 @@ nav{
 
 .img-cont{
     border: 10px solid var(--color-borda);
+    margin-bottom: 15px;
 }
 
 #rodape{
